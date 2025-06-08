@@ -1,0 +1,57 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PHP
+*.log
+*.tmp
+*.temp
+
+# Database
+*.sql.backup
+*.sql.bak
+
+# Configuration Files (if they contain sensitive data)
+config/database.php.local
+config/config.local.php
+
+# Cache and temporary files
+cache/
+tmp/
+temp/
+
+# Upload directories (if they contain user uploads)
+uploads/
+user_uploads/
+
+# Vendor directories (if using Composer)
+vendor/
+
+# Node modules (if using npm)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Backup files
+*.bak
+*.backup
+
+# Log files
+error.log
+access.log
+*.log

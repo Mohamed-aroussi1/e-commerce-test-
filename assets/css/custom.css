@@ -1,0 +1,95 @@
+/* Custom CSS for cart dropdown */
+.cart-list.s-cate {
+    max-height: 350px;
+    overflow-y: auto;
+    width: 300px;
+}
+
+.single-cart-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-product-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 10px;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fd;
+}
+
+.cart-product-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.cart-item-content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.cart-list-txt {
+    flex: 1;
+}
+
+.cart-list-txt h6 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.cart-list-txt h6 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.cart-list-txt p {
+    margin-bottom: 0;
+    color: #666;
+    font-size: 12px;
+}
+
+.cart-list-txt .price {
+    color: #e99c2e;
+    font-weight: 600;
+}
+
+.cart-close {
+    cursor: pointer;
+}
+
+.cart-close .lnr-cross {
+    color: #999;
+    font-size: 16px;
+}
+
+.cart-close .lnr-cross:hover {
+    color: #e99c2e;
+}
+
+li.total {
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+li.total span {
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-cart.pull-right {
+    margin-left: 10px;
+}
